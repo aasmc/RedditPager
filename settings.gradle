@@ -1,0 +1,3 @@
+rootProject.name = "Reddit Pager"
+include ':app'
+include ':paging'
