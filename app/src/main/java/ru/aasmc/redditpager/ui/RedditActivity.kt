@@ -16,7 +16,6 @@ import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.launch
 import ru.aasmc.redditpager.GlideApp
 import ru.aasmc.redditpager.ServiceLocator
-import ru.aasmc.redditpager.databinding.ActivityMainBinding
 import ru.aasmc.redditpager.databinding.ActivityRedditBinding
 import ru.aasmc.redditpager.paging.asMergesLoadStates
 import ru.aasmc.redditpager.repo.RedditPostRepository
