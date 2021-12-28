@@ -56,6 +56,7 @@ dependencies {
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
     implementation "androidx.recyclerview:recyclerview:$recycler_view_version"
     implementation "androidx.cardview:cardview:$cardview_version"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:$swiperefresh_layout_version"
 
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
