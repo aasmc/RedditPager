@@ -9,7 +9,7 @@ import ru.aasmc.redditpager.model.RedditPost
  * Note: this only exists for sample purposes - typically an app would implement a repo once, either
  * network+db, or network-only
  */
-interface SubredditPostRepository {
+interface RedditPostRepository {
     fun postsOfSubreddit(subreddit: String, pageSize: Int): Flow<PagingData<RedditPost>>
 
     enum class Type {
